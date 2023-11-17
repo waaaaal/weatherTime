@@ -1,0 +1,40 @@
+.header {
+    background-color: #7d7d72;
+    color: black;
+    padding: 20px;
+    font-family: 'Helvetica Neue', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    border-top-left-radius: 20px; 
+    border-top-right-radius: 20px; 
+    border-bottom-right-radius: 30px; 
+    border-bottom-left-radius: 30px; 
+
+    .navMenu {
+
+      display: flex;
+  
+      a {
+        color: rgb(200, 200, 200);
+        margin: 0 10px;
+        text-decoration: none;
+        padding: 5px;
+        border-bottom: 3px solid transparent;
+  
+        &:hover {
+        }
+  
+        &.active {
+          color: rgb(55, 55, 59);
+          border-bottom: 3px solid currentColor;
+        }
+      }
+    }
+  
+    .logo img {
+      max-height: 45px; 
+      width: auto; 
+      border-radius: 20%;
+    }
+  }
+  
