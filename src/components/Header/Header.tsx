@@ -5,7 +5,7 @@ import logoImage from "../../images/Orange and Dark Blue Basketball Match Result
 const Header = (): JSX.Element => {
   return (
     <header className={styles.header}>
-      <div className={styles.navMenu}>
+      <a className={styles.navMenu}>
         <NavLink
           to="/"
           className={({ isActive }) =>
@@ -22,8 +22,13 @@ const Header = (): JSX.Element => {
         >
           Acerca de
         </NavLink>
-      </div>
+      </a>
       <div className={styles.logo}>
+        <h1 className={styles.logo}>
+          <NavLink className={styles.logotext} to="/">
+            WeatherApp
+          </NavLink>
+        </h1>
         <img src={logoImage} alt="Logo" />
       </div>
     </header>
