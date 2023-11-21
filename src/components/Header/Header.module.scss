@@ -1,0 +1,55 @@
+.header {
+  background-color: #F5F8FA;
+  color: black;
+    padding: 2rem;
+    font-family: 'Helvetica Neue', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    border-top-left-radius: 2rem; 
+    border-top-right-radius: 2rem; 
+    border-bottom-right-radius: 3rem; 
+    border-bottom-left-radius:3rem; 
+    border: 0.05rem solid #ccc;
+
+    .navMenu {
+
+      display: flex;
+  
+      a {
+        color: rgb(200, 200, 200);
+        margin: 0 1rem;
+        text-decoration: none;
+        padding: 0.3rem;
+        border-bottom: 1rem solid transparent;
+  
+        &:hover {
+        }
+  
+        &.active {
+          color: rgb(55, 55, 59);
+          border-bottom: 0.2rem solid currentColor;
+          border-radius: 3%;
+        }
+      }
+    }
+   .logo {
+
+    max-height: 3rem; 
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+      .logotext{
+        color: #234357;
+        text-decoration: none;
+        padding: 0.8rem;
+      }
+      
+   }
+    .logo img {
+  
+      max-height: 3rem; 
+      width: auto; 
+      border-radius: 20%;
+    }
+  }
+  
